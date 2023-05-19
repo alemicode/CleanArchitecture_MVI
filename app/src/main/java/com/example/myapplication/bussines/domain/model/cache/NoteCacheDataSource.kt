@@ -1,4 +1,4 @@
-package com.example.myapplication.bussines.data.cache.abstraction
+package com.example.myapplication.bussines.domain.model.cache
 
 import com.example.myapplication.bussines.domain.model.Note
 

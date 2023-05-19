@@ -1,6 +1,6 @@
 package com.example.myapplication.bussines.data.cache.implementation
 
-import com.example.myapplication.bussines.data.cache.abstraction.NoteCacheDataSource
+import com.example.myapplication.bussines.domain.model.cache.NoteCacheDataSource
 import com.example.myapplication.bussines.domain.model.Note
 import javax.inject.Inject
 import javax.inject.Singleton

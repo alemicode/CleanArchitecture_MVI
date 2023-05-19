@@ -1,17 +1,14 @@
 package com.example.myapplication.bussines.domain.interactor
 
-import android.icu.text.CaseMap.Title
 import com.codingwithmitch.cleannotes.business.domain.model.NoteFactory
-import com.example.myapplication.bussines.data.cache.abstraction.NoteCacheDataSource
-import com.example.myapplication.bussines.data.network.abstraction.NoteNetworkDataSource
+import com.example.myapplication.bussines.domain.model.cache.NoteCacheDataSource
+import com.example.myapplication.bussines.domain.model.network.NoteNetworkDataSource
 import com.example.myapplication.bussines.domain.model.Note
 import com.example.myapplication.bussines.domain.state.*
 import com.example.myapplication.framework.presentation.notelist.state.NoteListViewState
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import java.util.UUID
-import javax.sql.DataSource
 
 class InsertNewNote constructor(
     private val noteCacheDataSource: NoteCacheDataSource,

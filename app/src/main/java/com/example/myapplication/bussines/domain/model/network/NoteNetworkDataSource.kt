@@ -1,4 +1,4 @@
-package com.example.myapplication.bussines.data.network.abstraction
+package com.example.myapplication.bussines.domain.model.network
 
 import com.example.myapplication.bussines.domain.model.Note
 

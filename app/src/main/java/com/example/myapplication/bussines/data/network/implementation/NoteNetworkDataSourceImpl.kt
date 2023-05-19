@@ -1,6 +1,6 @@
 package com.example.myapplication.bussines.data.network.implementation
 
-import com.example.myapplication.bussines.data.network.abstraction.NoteNetworkDataSource
+import com.example.myapplication.bussines.domain.model.network.NoteNetworkDataSource
 import com.example.myapplication.bussines.domain.model.Note
 import javax.inject.Inject
 import javax.inject.Singleton
